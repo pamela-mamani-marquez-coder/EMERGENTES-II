@@ -1,3 +1,4 @@
+#--------------------------- EJERCICIO 1 -----------------
 print("Hola mundo desde python!!")
 
 #variables en Python
@@ -20,8 +21,8 @@ print("Precio: " + str(precio))
 nombre = input("introduce un nombre: ")
 print("Hola "+nombre)
 
-
-#---- ENTRADA DE DATOS DE STR Y FLOAT
+#----------------------- EJERCICIO 2 ------------------------------
+#ENTRADA DE DATOS DE STR Y FLOAT
 num1 = input("Ingresa el primer numero: ")
 num2 = input("Ingresa el segundo numero: ")
 
@@ -32,8 +33,8 @@ print("La suma total es: ", suma)
 
 
 
-
-#---------MAYUSCULAS A MINUSCULAS VICEVERSA
+#------------------ EJERCICIO 3 -----------------------
+#MAYUSCULAS A MINUSCULAS VICEVERSA
 curso = "Python para iniciantes"
 print (curso.upper()) #todo mayuscula
 print (curso)
@@ -54,6 +55,8 @@ print(curso)
 print("FOR" in curso)
 print("para" in curso)
 print("PARA" in curso)
+
+#------------------- EJERCICIO 4 -------------
 
 #operadores matematicos
 print (10 + 5)
@@ -83,6 +86,9 @@ print(y)
 x = 10 + (3 * 2)
 print (x)
 
+
+#------------------  EJERCICIO 5 ------------------
+
 #Expresiones boleanas True o False
 #>, >=, <, <=, ==, != op. relacionales
 
@@ -103,8 +109,8 @@ precio = 5
 print(precio > 20 or precio < 30)
 print( not precio > 10)
 
-
-#-- sentencia if 
+#----------------------- EJERCICIO 6 ---------------
+#sentencia if 
 temperatura = int(input ("indica la temperatura: "))
 
 if temperatura > 28:
@@ -124,8 +130,8 @@ else:
     
 print("proceso concluido")
 
-
-#----bucles
+#------------------- EJERCICIO 7 ----------------
+#bucles
 contador = 12
 while (contador <= 20):
     print(contador)
@@ -137,9 +143,9 @@ while (i <= 10):
     i += 1
         
         
+#---------------- EJERCICIO 8 -------------------
 
-
-#-----Listas
+#Listas
 
 frutas = ["Manzana", "Fresa", "Naranja", "Pera" , "Maracuya"]
 print(frutas)
@@ -148,9 +154,8 @@ print(frutas[4])
 print(frutas[-2])
 print(frutas[1:4])
 
-
-
-#------METODOS DE LISTAS 
+#---------------- EJERCICIO 9 ---------------
+#METODOS DE LISTAS 
 
 numeros = [1, 2, 3, 4, 5]
 
@@ -180,9 +185,9 @@ numeros.clear() #Elimina todos los elementos de la lista
 print(numeros) #[]
 
 
+#---------------- EJERCICIO 10 ---------------
 
-
-#--------OBJETO RANGE
+#OBJETO RANGE
 
 numeros = range(5)
 print(numeros)
@@ -196,9 +201,9 @@ for item in range(5, 10):
 for item in range(10, 20, 2):
     print(item)
     
+#---------------------  EJERCICIO 11 ------------------
 
-
-#------------------TUPLAS (INMUTABLES)
+#TUPLAS (INMUTABLES)
 
 numeros = (1, 2, 3, 4, 5, 6)
 
@@ -212,7 +217,9 @@ print(numeros.count(5)) #IMPRIME CUANTAS VECES SE REPITE EL NUMERO 5 EN LA TUPLA
 print(numeros.index(5)) #IMPRIME LA POSICION DEL NUMERO 5 EN LA TUPLA
 
 
-#----------------DICCIONARIO -> ALMACEN A PARES DE CLVE-VALOR
+
+#--------------------- EJERCICIO 12 -----------------------
+#DICCIONARIO -> ALMACEN A PARES DE CLVE-VALOR
 
 mi_diccionario = {'nombre': 'bruno', 'edad': 25, 'ciudad': 'La Paz'}
 print(mi_diccionario)
@@ -249,7 +256,9 @@ for clave, valor in mi_diccionario.items():
     print ("[Clave: ]",clave, "[Valor:]" , valor )
 
 
-#---------------FUNCIONES - SON BLOQUES DE CODIGO QUE REALIZA UNA TAREA ESPECIFICA 
+
+#------------------------- EJERCICIO 13 ---------------
+#FUNCIONES - SON BLOQUES DE CODIGO QUE REALIZA UNA TAREA ESPECIFICA 
 # Y QUE SON REUTILIZABLES
 
 #FUNCION SIN PARAMETROS NI DEVOLUCION DE VALOR 
